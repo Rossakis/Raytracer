@@ -1,0 +1,3 @@
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/Raytracer.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,123 @@
+############################
+# OS-specific clutter
+############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################
+# IDE / Editor files
+############################
+# CLion / IntelliJ
+.idea/
+*.iml
+cmake-build-*/
+cmake-build*/
+CMakeSettings.json
+CMakeLists.txt.user
+
+# VSCode or others
+.vscode/
+*.code-workspace
+
+############################
+# Build / Binary output
+############################
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+
+# Libraries
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Intermediate & debug symbols
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.map
+*.dSYM/
+*.su
+
+# Precompiled headers
+*.gch
+*.pch
+
+############################
+# CMake / Ninja generated
+############################
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+*.ninja
+*.ninja_deps
+*.ninja_log
+
+############################
+# Custom build folders
+############################
+build/
+bin/
+obj/
+out/
+dist/
+Debug/
+Release/
+intermediate/
+temp/
+cache/
+
+############################
+# Logs / Backups
+############################
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+############################
+# Archives
+############################
+*.zip
+*.tar
+*.gz
+*.tgz
+*.7z
+*.rar
+
+############################
+# Project-specific (examples)
+############################
+# Example for ShaderNinja / JetBoxer2D structure
+Project/resources/generated/
+Project/temp/
+Project/intermediate/
+Project/cache/
+
+############################
+# End of file
+############################
