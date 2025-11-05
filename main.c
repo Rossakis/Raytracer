@@ -23,9 +23,6 @@ int main(int argc, char* argv[])
             if (event.type == SDL_EVENT_QUIT)
                 running = false;
         }
-
-        // Clear window color
-        SDL_Delay(16); // ~60 FPS delay
     }
 
     SDL_DestroyWindow(window);
