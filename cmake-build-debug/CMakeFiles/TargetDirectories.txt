@@ -1,3 +1,8 @@
 C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/Raytracer.dir
 C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/third-party/SDL/CMakeFiles/SDL3-shared.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/third-party/SDL/CMakeFiles/SDL3_test.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/third-party/SDL/CMakeFiles/SDL_uclibc.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/third-party/SDL/CMakeFiles/edit_cache.dir
+C:/Users/GiorgosDev/Documents/GitHub/Raytracer/cmake-build-debug/third-party/SDL/CMakeFiles/rebuild_cache.dir
