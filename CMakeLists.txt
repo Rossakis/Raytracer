@@ -7,9 +7,14 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 
-add_subdirectory(third-party/SDL EXCLUDE_FROM_ALL)
+add_subdirectory(
+        third-party/SDL
+        third-party/MathG
+        EXCLUDE_FROM_ALL)
+
 file(GLOB SRC_FILES src/*.cpp)
-add_executable(Raytracer ${SRC_FILES})
+add_executable(Raytracer ${SRC_FILES}
+        third-party/MathG/include/Matrix.h)
 
 target_include_directories(Raytracer PRIVATE src)
-target_link_libraries(Raytracer PRIVATE SDL3::SDL3)
+target_link_libraries(Raytracer PRIVATE SDL3::SDL3 MathG)
